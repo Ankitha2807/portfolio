@@ -148,7 +148,7 @@ const App = () => {
               View My Work
             </button>
             <a 
-              href="/assets/ANKITHA K N-CV.pdf" 
+              href={process.env.PUBLIC_URL + '/assets/ANKITHA K N-CV.pdf'} 
               download="ANKITHA K N-CV.pdf"
               className="btn-secondary"
             >
